@@ -1,6 +1,9 @@
-Laboratorio 1
+#Laboratorio 1
+
 Algoritmos 2018-1
+
 Autor: Fabian Esteban Wilches Cardenas
+
 Profesor: German Jairo Hernandez 
 
 ENUNCIADOS:
