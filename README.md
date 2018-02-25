@@ -9,15 +9,15 @@ Profesor: German Jairo Hernandez
 ENUNCIADOS:
 1. Publique (fork) el trabajo realizado en las Lecturas 1 a 5 de www.quantopian.com en su cuenta de Github 
 
-    1.Lecture 1 Introduction to Research A simple tutorial to help you get up to speed in the research environment. 
+    1. Lecture 1 Introduction to Research A simple tutorial to help you get up to speed in the research environment. 
     
-    2.Lecture 2 Introduction to Python Some basic tools for working in the language. 
+    2. Lecture 2 Introduction to Python Some basic tools for working in the language. 
     
-    3.Lecture 3 Introduction to NumPy How to use NumPy for computing on data. 
+    3. Lecture 3 Introduction to NumPy How to use NumPy for computing on data. 
     
-    4.Lecture 4 Introduction to pandas An introduction to using pandas to manage and analyze your data. 
+    4. Lecture 4 Introduction to pandas An introduction to using pandas to manage and analyze your data. 
     
-    5.Lecture 5 Plotting Data A brief primer.    
+    5. Lecture 5 Plotting Data A brief primer.    
 
 2. Fibonacci:
 
