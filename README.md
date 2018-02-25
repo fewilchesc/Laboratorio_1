@@ -1,4 +1,4 @@
-#Laboratorio 1
+# Laboratorio 1
 
 Algoritmos 2018-1
 
