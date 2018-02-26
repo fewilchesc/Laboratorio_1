@@ -21,8 +21,8 @@ ENUNCIADOS:
 
 2. Fibonacci:
 
-    Desarrolle programas iterativos que calculen el n termino de la  la serie de Fibonacci  en Java y C-C++, usando todos los tipos de variables enteras disponibles en cada lenguaje, y determine para tipo para que valor de n se produce un overflow.
-    Desarrolle un programas iterativo que calculen el n termino de la  la serie de Fibonacci  en Python que retorne el tiempo de ejecución y use mathplotlib y utilícelos para graficar el tiempo de ejecución en función de n 
+    1. Desarrolle programas iterativos que calculen el n termino de la  la serie de Fibonacci  en Java y C-C++, usando todos los tipos de variables enteras disponibles en cada lenguaje, y determine para tipo para que valor de n se produce un overflow.
+    2. Desarrolle un programas iterativo que calculen el n termino de la  la serie de Fibonacci  en Python que retorne el tiempo de ejecución y use mathplotlib y utilícelos para graficar el tiempo de ejecución en función de n 
     Publique  1 y 2 en entradas su cuenta de Github  (los de Python se deben cargar como Ipython notebooks).         
 
 3. Matrix: Desarrolle un programas en Java, C-C++, Python y Python usando arreglos Numpy que multiplican una matriz cuadrada con entradas  1's por con entradas 2's  y que retorne el tiempo estimado por instrucción (considerando sumas y productos)  utilícelos para graficar tiempo estimado por instrucción (usando como estimador el promedio de al menos 10 ejecuciones del programa para cada n)  en función de n en el serviodr de ideone.com y un laptop o desktop, publique los códigos y salidas en  su cuenta de Github
