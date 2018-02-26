@@ -1,0 +1,131 @@
+package fibonacci;
+
+import java.util.Scanner;
+
+public class Fibonacci {
+    public static Scanner read= new Scanner(System.in);
+    
+    public static byte fibonacciByte(int n){
+        byte primero=0;
+        byte segundo=1;
+        byte resultado=0;
+        for (int i = 0; i < n-1; i++) {
+            resultado=(byte) (primero+segundo);
+            segundo=primero;
+            primero=resultado;
+        }
+        return resultado;
+    }
+    public static short fibonacciShort(int n){
+        short primero=0;
+        short segundo=1;
+        short resultado=0;
+        for (int i = 0; i < n-1; i++) {
+            resultado=(short) (primero+segundo);
+            segundo=primero;
+            primero=resultado;
+        }
+        return resultado;
+    }
+    public static int fibonacciInt(int n){
+        int primero=0;
+        int segundo=1;
+        int resultado=0;
+        for (int i = 0; i < n-1; i++) {
+            resultado=(int) (primero+segundo);
+            segundo=primero;
+            primero=resultado;
+        }
+        return resultado;
+    }
+    public static long fibonacciLong(int n){
+        long primero=0;
+        long segundo=1;
+        long resultado=0;
+        for (int i = 0; i < n-1; i++) {
+            resultado=(long) (primero+segundo);
+            segundo=primero;
+            primero=resultado;
+        }
+        return resultado;
+    }
+    
+    public static boolean salir(){
+        int opcion=-1;
+        do {            
+            System.out.println("Salir?");
+            System.out.println("\t1. Si");
+            System.out.println("\t2. No");
+            opcion=read.nextInt();
+            if (opcion<1 || opcion>2) {
+                System.out.println("__________________________________");
+                System.out.println("OPCION INCORRECTA");
+            }
+        } while (opcion<1 || opcion>2);
+        if(opcion==1){
+            return true;
+        }else{
+            return false;
+        }
+    }
+    public static void main(String[] args) {
+        int opcion=-1;
+        boolean salir=false;
+        while (!salir) {            
+            do {            
+                System.out.println("Con qué tipo de dato quiere el cálculo");
+                System.out.println("\t1. Byte");
+                System.out.println("\t2. Short");
+                System.out.println("\t3. Int");
+                System.out.println("\t4. Long");
+                opcion=read.nextInt();
+                if(opcion<1 || opcion>4){
+                    System.out.println("__________________________________");
+                    System.out.println("OPCION INCORRECTA");
+                }
+            } while (opcion<1 || opcion>4);
+            int n=3;
+            switch(opcion){
+                    case 1:
+                        while(fibonacciByte(n)>0){
+                            n++;
+                        }
+                        System.out.println("Overflow en byte en n="+n);
+                        salir=salir();
+                        
+                    break;
+
+                    case 2:
+                        while(fibonacciShort(n)>0){
+                            n++;
+                        }
+                        System.out.println("Overflow en short en n="+n);
+                        salir=salir();
+                    break;
+
+                    case 3:
+                        while(fibonacciInt(n)>0){
+                            n++;
+                        }
+                        System.out.println("Overflow en int en n="+n);
+                        salir=salir();
+                    break;
+
+                    case 4:
+                        while(fibonacciLong(n)>0){
+                            n++;
+                        }
+                        System.out.println("Overflow en long en n="+n);
+                        salir=salir();
+                    break;
+
+                    default:
+                        System.out.println("Error de opción");
+                        salir=true;
+                    break;
+        }
+    }
+        
+}
+    
+}
